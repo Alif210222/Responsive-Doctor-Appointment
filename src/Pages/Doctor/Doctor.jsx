@@ -36,7 +36,7 @@ const Doctor = ({doctor}) => {
 
    
     <div className="card-actions  mt-5 ">
-     <Link to={`/doctorDetails/${id}`}> <button className=" md:w-80 ml-23 md:ml-0 text-center border-2 border-blue-500 p-1 rounded-2xl text-[15px] font-semibold  cursor-pointer hover:bg-blue-100 duration-300">View Details</button></Link>
+     <Link to={`/doctorDetails/${id}`}> <button className=" md:w-80 ml-21 md:ml-0 text-center border-2 border-blue-500 p-1 rounded-2xl text-[15px] font-semibold  cursor-pointer hover:bg-blue-100 duration-300">View Details</button></Link>
     </div>
   </div>
 </div>

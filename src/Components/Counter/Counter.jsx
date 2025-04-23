@@ -13,7 +13,7 @@ const Counter = () => {
             <h1 className='md:text-[30px] text-[24px] font-bold mb-4'>We Provide Best Medical Services</h1> 
             <p>Our platform connects you with verified, experienced doctors across various specialties — all at your convenience. </p>
             {/* counter card */}
-            <div className='grid  grid-cols-2 lg:grid-cols-4  gap-8 justify-center my-16 md:p-10'>
+            <div className='grid  grid-cols-2 lg:grid-cols-4 md:ml-16 gap-4 justify-center my-16 md:p-10'>
                  <div className='p-6 border-1 border-none  bg-white rounded-xl  md:w-60 md:h-64 space-y-5 shadow-2xl'>
                     <img className='ml-2 ' src={doctor} alt="" />
                     <h1 className='text-4xl -ml-12 font-extrabold'>
