@@ -74,7 +74,8 @@ const Rechart = ({bookList}) => {
 
 
     return (
-        <div className='h-[200px] md:flex md:h-[500px] my-20 '>
+      <div className='md:p-12  '> 
+        <div className='h-[200px] md:flex md:h-[500px] my-14 bg-white p-4 rounded-2xl'>
 
 <ResponsiveContainer width="100%" height="100%"> 
 <BarChart
@@ -103,6 +104,7 @@ const Rechart = ({bookList}) => {
 
 
         </div>
+       </div>
     );
 };
 
